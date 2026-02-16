@@ -12,6 +12,8 @@ colleague_list = [{"name": name} for name in new_colleagues]
 
 # Create a DataFrame from the list of dictionaries
 df = pd.DataFrame(colleague_list)
+# pd pandas
+# df dataframe
 
 # Ensure the 'data' folder exists
 df.to_excel("colleagues.xlsx", index=False)
